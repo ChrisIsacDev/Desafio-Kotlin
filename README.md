@@ -1,10 +1,10 @@
 # Desafio-Kotlin
 
-#README - Desafio de Desenvolvimento em Kotlin
+# README - Desafio de Desenvolvimento em Kotlin
 
 Este desafio envolve o desenvolvimento de um sistema educacional em Kotlin, onde os principais componentes são: Nivel, Usuario, ConteudoEducacional, e Formacao. O objetivo é criar objetos e simular a matrícula de usuários em formações educacionais.
 
-##Componentes
+## Componentes
 
 Nivel: Enumeração que representa os níveis de dificuldade, com opções de BASICO, INTERMEDIARIO e DIFICIL.
 
@@ -14,7 +14,7 @@ ConteudoEducacional: Classe que representa o conteúdo educacional, com um nome 
 
 Formacao: Classe que representa uma formação educacional, contendo um nome, uma lista de conteúdos educacionais e uma lista de usuários inscritos. Ela possui um método matricular para inscrever um usuário na formação.
 
-##Solução
+## Solução
 
 Para resolver o desafio, a solução implementa a criação de objetos dessas classes e a simulação de matrículas de usuários em formações. Aqui estão os passos da solução:
 
@@ -28,7 +28,7 @@ Simular matrículas de usuários nas formações usando o método matricular.
 
 Exibir os resultados na saída padrão, incluindo a lista de inscritos em uma formação.
 
-##Exemplo de Uso
+## Exemplo de Uso
 
 kotlin
 Copy code
@@ -46,6 +46,6 @@ formacaoKotlin.matricular(user2)
 println("Inscritos na formação ${formacaoKotlin.nome}: ${formacaoKotlin.inscritos}")
 Neste exemplo, criamos uma formação chamada "Formação Kotlin" com dois conteúdos educacionais. Matriculamos dois usuários, Alice e Bob, na formação, e exibimos a lista de inscritos.
 
-##Conclusão
+## Conclusão
 
 Este desafio demonstra o uso de classes, objetos e enumerações em Kotlin para modelar um sistema educacional simples. Ele também ilustra como realizar a matrícula de usuários em formações educacionais. Essa solução pode ser estendida e aprimorada para construir um sistema educacional mais completo, com mais recursos e funcionalidades.
